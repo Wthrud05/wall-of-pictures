@@ -1,0 +1,59 @@
+body {
+  background: #000;
+
+}
+
+.sidebar {
+  background: #1b1b1b;
+}
+
+.header {
+  background: #1b1b1b;
+  border-bottom: 1px solid rgb(126 126 126 / 50%)
+}
+
+
+.content {
+  background: #1b1b1b;
+}
+
+.modal {
+  background: #1b1b1b;
+  color: #fff;
+}
+
+.modal-post {
+  background: #1b1b1b;
+  color: #fff;
+}
+
+.post-details span {
+  color: #fff;
+}
+
+.settings {
+  background: #1b1b1b;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+}
+
+.info {
+  background: #1b1b1b;
+  color: #fff;
+}
+
+.loader {
+  background: #1b1b1b;
+}
+
+#description {
+  color: #fff;
+}
+
+.switch-theme[data-theme="light"] {
+  display: block;
+}
+
+.switch-theme[data-theme="dark"] {
+  display: none;
+}

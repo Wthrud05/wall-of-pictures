@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../src/assets/images/wall-of-pic-fav.svg" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/styles/light.css" id="theme-css">
+  <title>Wall of pic</title>
+</head>
+
+<body>
+  <div id="root">
+
+    <button class="burger"><img src="../src/assets/images/menu.svg" alt="menu"></button>
+    <button class="close-sidebar"><img src="../src/assets/images/close.svg" alt="menu"></button>
+
+    <div class="info" id="info">
+      <h1>Welcome to the <span>wall</span> of pictures</h1>
+      <div class="info-images">
+        <img src="../src/assets/images/description-img.png" alt="">
+        <img class="cycle" src="../src/assets/images/cycle.png" alt="">
+      </div>
+      <p>Let me introduce you this application. Here you can view, upload and download images. Application written in
+        pure JavaScript. Also used CSS and Webpack</p>
+      <button class="close-info" id="close-info">Start</button>
+    </div>
+
+    <div class="settings-layout">
+      <div class="settings">
+        <h5>Settings</h5>
+        <button class="settings-close">&times;</button>
+        <div class="settings-controls">
+          <span>Change theme</span>
+          <div class="theme-box">
+            <img src="../src/assets/images/sun.svg" class="switch-theme sun" data-theme="light" alt="sun">
+            <img src="../src/assets/images/moon.svg" class="switch-theme moon" data-theme="dark" alt="sun">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-layout">
+      <div class="modal">
+        <div class="loader">
+          <div class="load">
+          </div>
+        </div>
+        <div class="close">&times;</div>
+        <h3 class="first">First add an image</h3>
+        <form class="form">
+          <input id="file" type="file" accept=".jpg, .jpeg, .png" />
+          <button class="open-file">open</button>
+
+          <h3 class="second">Second add description</h3>
+          <div class="description-box">
+            <input placeholder="add description" id="description" type="text" />
+            <button class="accept-description">ok</button>
+          </div>
+        </form>
+        <div class="preview">
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="sidebar">
+      <div class="fixed-sidebar">
+        <div class="logo">
+          <img src="../src/assets/images/Logo.png" />
+        </div>
+
+        <div class="create">
+          <button class="create-btn">
+            <img src="../src/assets/images/create.png" alt="create">
+            Create
+          </button>
+        </div>
+
+        <nav class="nav">
+          <ul>
+            <li><button class="link" id="wall-btn">
+                <div><img src="../src/assets/images/pic-ico.svg" alt=""><span>Wall</span></div>
+              </button></li>
+            <li><button class="link" id="settings-btn">
+                <div><img src="../src/assets/images/settings-ico.svg" alt=""><span>Settings</div></span>
+              </button></li>
+            <li><button class="link" id="info-btn">
+                <div><img src="../src/assets/images/info-ico.svg" alt=""><span>Info</span></div>
+              </button></li>
+          </ul>
+        </nav>
+
+        <div class="author">
+          <a target="_blank" href="https://github.com/Wthrud05"><img src="../src/assets/images/github-ico.svg"
+              alt=""></a>
+          <span>Alexander L 2022</span>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="content-layout">
+      <header class="header">
+        <div class="container">
+          Create, Download, Enjoy!
+        </div>
+      </header>
+
+      <main class="content">
+        <div class="container-posts">
+          <div class="loading">Loading...</div>
+        </div>
+      </main>
+    </div>
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+body {
+  background: rgb(225, 225, 225);
+}
+
+.sidebar {
+  background: #fff;
+}
+
+.header {
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  background: #fff;
+}
+
+.modal {
+  background: #fff;
+  color: #000;
+}
+
+.modal-post {
+  background: #fff;
+  color: #000;
+}
+
+.post-details span {
+  color: #000;
+}
+
+.settings {
+  background: #fff;
+  color: #000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.info {
+  background: #fff;
+  color: #000;
+}
+
+.loader {
+  background: #fff;
+}
+
+#description {
+  color: #000;
+}
+
+.switch-theme[data-theme="light"] {
+  display: none;
+}
+
+.switch-theme[data-theme="dark"] {
+  display: block;
+}

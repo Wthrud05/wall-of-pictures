@@ -74,7 +74,7 @@ export function closeSidebar() {
   sidebar.classList.remove('open')
   burger.style.display = 'block'
   sidebarCloseBtn.style.display = 'none'
-  document.body.overflow = 'visible'
+  document.body.style.overflow = 'visible'
   container.style.pointerEvents = 'unset'
   windowWidth <= 820 ? contentLayout.style.opacity = '1' : null
 }
